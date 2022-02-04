@@ -1,9 +1,9 @@
+import 'package:business/block_factory.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_architecture/data/service_locator.dart';
 
 import 'ui/my_app.dart';
 
 void main() {
-  ServiceLocator.instance.setUp();
+  BlockFactory.instance.setUp();
   runApp(const MyApp());
 }

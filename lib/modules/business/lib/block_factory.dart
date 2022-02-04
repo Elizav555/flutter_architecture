@@ -1,7 +1,7 @@
-import 'package:flutter_architecture/business/main_bloc.dart';
-import 'package:flutter_architecture/data/service.dart';
-import 'package:flutter_architecture/data/service_locator.dart';
+import 'package:data/data.dart';
 import 'package:get_it/get_it.dart';
+
+import 'main_bloc.dart';
 
 class BlockFactory {
   static final _getIt = GetIt.I;

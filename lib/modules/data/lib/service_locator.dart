@@ -1,5 +1,6 @@
-import 'package:flutter_architecture/data/service.dart';
 import 'package:get_it/get_it.dart';
+
+import 'service.dart';
 
 class ServiceLocator {
   final _getIt = GetIt.I;

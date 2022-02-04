@@ -1,4 +1,4 @@
-import 'package:flutter_architecture/data/service.dart';
+import 'package:data/service.dart';
 
 class MainBloc {
   final Service service;
