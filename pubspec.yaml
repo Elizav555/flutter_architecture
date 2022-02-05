@@ -34,7 +34,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   business:
-    path: lib/modules/business
+    path: modules/business
 
 dev_dependencies:
   flutter_test:
